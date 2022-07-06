@@ -1,0 +1,93 @@
+.fields {
+    &__summary-container {
+        border: 0.5px solid #9b9b9b;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 12px;
+        
+        .col {
+            padding: 5px;
+        }
+    }
+
+    .v-expansion-panel-content__wrap {
+        padding-left: 8px !important;
+        padding-bottom: 13px !important;
+        padding-right: 23px !important;
+    }
+
+    .v-expansion-panels {
+        .col {
+            padding: 5px;
+        }
+    }
+    .show-more{
+        cursor: pointer;
+    }
+    .field {
+        .v-label {
+            position: static !important;
+        }
+    }
+
+    .signboard-panel {
+        border: 1px solid #9B9B9B;
+        &__header {
+            padding-left: 14px;
+            .text {
+                font-weight: 700;
+                padding: 4px 0;
+            }
+        }
+        .theme--light.v-divider {
+            border-top: 1px solid #9B9B9B;
+        }
+
+        &__dsrn[disable] {
+                display: none;
+            }
+
+        &__dsrn {
+            .row + .row {
+                margin-top: 2px;
+                margin-bottom: 2px;
+            }
+
+            .row:first-child {
+                margin-top: 0;
+            }
+            
+            .row:last-child {
+                margin-bottom: 8px;
+            }
+            
+            [disabled] {
+                display: none;
+            }
+
+            input::placeholder {
+                color:#9B9B9B;
+            }
+
+            .v-input, .v-radio label {
+                font-size: 14px;
+                margin-right: 8px;
+            }
+
+            &__generate-button {
+                [disabled] {
+                    display: block;
+                }
+            }
+            .v-expansion-panel-content__wrap {
+                padding-right: 8px !important;
+            }
+        }
+        .v-text-field {
+            &__details {
+                padding: 0 2px !important;
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+}

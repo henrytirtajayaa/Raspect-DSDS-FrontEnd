@@ -1,0 +1,25 @@
+.settings-pending-items-tab {
+	
+	&__table {
+		margin-top: 24px;
+		.v-data-table-header {
+			background: #C4C4C4;
+		}
+	}
+
+	.v-text-field--outlined > .v-input__control > .v-input__slot {
+		min-height: 38px;
+		max-height: 40px;
+	}
+
+	.v-text-field__slot {
+		.v-label {
+			top: 30%;
+		}
+	}
+
+	.v-text-field--enclosed .v-input__append-inner {
+		margin-top: 8px;
+	}
+	
+}

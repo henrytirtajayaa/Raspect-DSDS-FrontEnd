@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="57px" viewBox="0 0 59 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>C517827C-E194-4939-AFB2-4B39864995AC</title>
+    <defs>
+        <filter x="-30.0%" y="-30.8%" width="160.0%" height="161.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.607892215   0 0 0 0 0.607803345   0 0 0 0 0.607922554  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Description" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation_Building-without-defects-assigned-location" transform="translate(-668.000000, -372.000000)">
+            <g id="location_on-24px" filter="url(#filter-1)" transform="translate(677.250000, 381.000000)">
+                <polygon id="Path" points="0 0 40 0 40 39 0 39"></polygon>
+                <path d="M20,4 C13.3657143,4 8,9.1645 8,15.55 C8,24.2125 20,37 20,37 C20,37 32,24.2125 32,15.55 C32,9.1645 26.6342857,4 20,4 Z M20,19.675 C17.6342857,19.675 15.7142857,17.827 15.7142857,15.55 C15.7142857,13.273 17.6342857,11.425 20,11.425 C22.3657143,11.425 24.2857143,13.273 24.2857143,15.55 C24.2857143,17.827 22.3657143,19.675 20,19.675 Z" id="Shape" stroke="#FFFFFF" fill="#F5A623" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

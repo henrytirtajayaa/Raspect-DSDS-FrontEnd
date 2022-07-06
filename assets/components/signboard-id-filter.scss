@@ -1,0 +1,112 @@
+.signboard-id {
+    height: 100%;
+
+    &__container {
+        margin-top: 22px;
+        height: 100%;
+    }
+
+    &__search-input-container {
+        width: 40%;
+    }
+
+    &__list-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 356px;
+        padding: 16px 0 48px 0;
+    }
+
+    &__tag-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+
+    &__list-item-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px;
+    }
+
+    &__field-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .v-input--selection-controls {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .v-input__slot {
+        margin-bottom: 0px;
+    }
+
+    .field {
+        .v-input__slot {
+            width: 250px;
+        }
+
+        .v-label {
+            position: static !important;
+        }
+    }
+
+    label {
+        font-family: $primary-font;
+        color: #5E5E5E;
+        font-size: 12px;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__slider {
+        padding-top: 50px;
+    }
+
+    &__chip {
+        border: 1px solid #979797 !important;
+    }
+
+    .input_range {
+        width: 250px !important;
+        display: inline-block !important;
+    }
+
+    .selected {
+        border-color: #056694 !important;
+        color: #056694 !important;
+    }
+
+    .number-field {
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .v-input__append-inner i {
+        font-size: 12px;
+    }
+
+    &__search-result-area {
+        overflow: auto;
+    }
+
+    &__custom-text {
+        font-weight: 600;
+    }
+
+    &__pagination-result .v-pagination {
+        justify-content: center;
+    }
+
+    &__chip-container {
+        max-height: 80px;
+        overflow: auto;
+    }
+}

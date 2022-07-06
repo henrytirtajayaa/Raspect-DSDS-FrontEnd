@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>5D76095F-85AD-4976-AD57-1FF4114B1FDF</title>
+    <defs>
+        <path d="M0,1.66666667 L0,5 L1.66666667,5 L1.66666667,1.66666667 L5,1.66666667 L5,0 L1.66666667,0 C0.75,0 0,0.75 0,1.66666667 Z M1.66666667,10 L0,10 L0,13.3333333 C0,14.25 0.75,15 1.66666667,15 L5,15 L5,13.3333333 L1.66666667,13.3333333 L1.66666667,10 Z M13.3333333,13.3333333 L10,13.3333333 L10,15 L13.3333333,15 C14.25,15 15,14.25 15,13.3333333 L15,10 L13.3333333,10 L13.3333333,13.3333333 Z M13.3333333,0 L10,0 L10,1.66666667 L13.3333333,1.66666667 L13.3333333,5 L15,5 L15,1.66666667 C15,0.75 14.25,0 13.3333333,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Description" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Navigation_Building-without-defects-assigned-location" transform="translate(-1355.000000, -102.000000)">
+            <g id="Group-12-Copy-3" transform="translate(1040.000000, 97.000000)">
+                <g id="icons/filled/image/crop_24px-copy" transform="translate(315.184932, 5.500000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="icon/image/crop_free_24px" fill-rule="nonzero"></g>
+                    <g id="Group" mask="url(#mask-2)" fill-opacity="0.54">
+                        <g transform="translate(-2.500000, -2.500000)" id="↳-Color">
+                            <rect id="↳-👉Icon-Style" fill="#000000" x="0" y="0" width="20" height="20"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

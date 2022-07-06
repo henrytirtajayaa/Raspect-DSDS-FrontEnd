@@ -1,0 +1,108 @@
+.route-detail {
+  .fade-leave-active,
+  .fade-enter-active {
+    transition: 0.5s;
+  }
+  .fade-enter {
+    /*transform: translate(100%, 0);*/
+    opacity: 0;
+  }
+  .fade-leave-to {
+    /*transform: translate(100%, 0);*/
+    opacity: 0;
+  }
+
+  &__container {
+    display: flex;
+    position: relative;
+  }
+
+  &__close-btn {
+    position: absolute;
+    left: -30px;
+    bottom: 287px;
+    z-index: 1;
+  }
+
+  &__card {
+    overflow: auto;
+  }
+
+  &__data-text {
+    line-height: 25px;
+    padding-top: 10px;
+    width: 100%;
+  }
+
+  &__data-container {
+    padding-left: 31px;
+  }
+
+  &__detail-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.route-control {
+  &__text {
+    text-align: center;
+    color: #4a4a4a;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 20px;
+  }
+
+  &__street-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: "Open Sans";
+    font-weight: 600;
+  }
+
+  &__buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .v-btn {
+        height: 18px !important;
+        width: 18px !important;
+
+        .v-icon {
+            font-size: 18px !important;
+        }
+    }
+
+    
+  }
+
+  &__buttons-inc-dec {
+    height: 18px;
+    width: 18px;
+  }
+
+}
+
+.angle-details {
+  &__top-row {
+    margin-bottom: -50px;
+  }
+
+  &__bottom-row {
+    margin-top: -37px;
+  }
+}
+
+#drag {
+  position: absolute;
+  left: -4px;
+  top: 0;
+  bottom: 0;
+  width: 8px;
+  cursor: w-resize;
+}

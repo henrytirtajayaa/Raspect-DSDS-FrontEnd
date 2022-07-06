@@ -1,0 +1,15 @@
+.sample-tab {
+    &__text {
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: #D8D8D8;
+        padding: 10px 21px 21px 10px;
+    }
+
+    &__button-container {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 16px;
+    }
+}

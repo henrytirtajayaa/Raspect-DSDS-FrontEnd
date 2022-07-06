@@ -1,0 +1,54 @@
+.survey {
+    height: calc(100vh - 85px);
+    
+    .leaflet-draw-toolbar.leaflet-control-toolbar, .leaflet-draw-toolbar {
+        padding-left: 0px;
+    }
+    
+    .leaflet-control-toolbar {
+        display: flex;
+    }
+
+    .fade-leave-active,
+    .fade-enter-active {
+        transition: 0.5s;
+    }
+    .fade-enter {
+        /*transform: translate(100%, 0);*/
+        opacity: 0;
+    }
+    .fade-leave-to {
+        /*transform: translate(100%, 0);*/
+        opacity: 0;
+    }
+
+    .leaflet-control-container {
+        .leaflet-top {
+        display: flex;
+        flex-wrap: wrap;
+
+        .geocoder-control.geocoder-control-expanded {
+            order: 1;
+            margin-bottom: 20px;
+        }
+
+        .geocoder-control-input {
+            height: 40px;
+            border: 1px solid rgba(0,0,0,0.3);
+        
+            &::placeholder {
+            font-family: $primary-font;
+            font-size: 16px;
+            padding-left: 5px;
+            text-overflow: ellipsis;
+            }
+        }
+        }
+    }
+
+    &__clear-btn {
+        background: white;
+        height: 40px;
+        width: 34px;
+    }
+}

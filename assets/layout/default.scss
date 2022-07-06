@@ -1,0 +1,11 @@
+.tab-selected {
+    border-right: 5px solid #056694;
+    transition: ease;
+}
+
+.default-sidebar{
+
+    .v-list-item--disabled {
+        opacity: .6;
+    }
+}

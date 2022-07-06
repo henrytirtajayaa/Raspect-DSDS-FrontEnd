@@ -1,0 +1,107 @@
+@import "../abstracts/variables.scss";
+
+.signboard-box-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  &__box-container {
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: 0.5px solid #9B9B9B;
+    margin-top: 15px;
+    padding: 9.5px 15px 9.5px 15px;
+
+    &--dark-blue {
+      border: 2px solid $secondary-color;
+      color: $secondary-color;
+    }
+
+    &--gray {
+      border: 2px solid #979797;
+      color: #979797;
+    }
+
+    &--normal {
+      border: 2px solid #32c5ff;
+      color: #32c5ff;
+    }
+
+    &--defective {
+      border: 2px solid #F5A623;
+      color: #F5A623;
+    }
+  }
+
+  &__image {
+    width: 15px;
+    height: 15px;
+  }
+
+  &__badge {
+    height: 20.5px;
+    width: 62px;
+    border-radius: 5px;
+    background-color: #056694;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--grey {
+      background: grey;
+    }
+  }
+
+  &__text {
+    font-family: "Avenir Next";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18px;
+
+    &--space-left {
+      margin-left: 15px;
+    }
+
+    &--small {
+      font-size: 9px;
+    }
+
+    &--dark-blue {
+      color: $secondary-color;
+    }
+
+    &--white {
+      color: white;
+    }
+
+    &--gray {
+      color: #979797;
+    }
+  }
+
+  &__info-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__pointer-style {
+    pointer-events: initial;
+    cursor: pointer;
+  }
+
+  &__verified-text {
+    margin-right: 10px;
+  }
+}
+
+.v-input--checkbox .v-input__control {
+  flex-direction: initial !important;
+  flex-grow: initial !important;
+  flex-wrap: initial !important;
+}

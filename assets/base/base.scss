@@ -1,0 +1,119 @@
+@import "../abstracts/variables.scss";
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("Oxygen"),
+  url(~assets/fonts/OpenSans-Regular.ttf) format("truetype");
+}
+
+.v-main {
+  padding-top: 0px !important;
+}
+
+.v-main__wrap > .container {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  overflow-y: none;
+}
+
+.v-application--wrap > .v-toolbar {
+  position: relative !important;
+}
+
+.text {
+  color: $grey;
+  font-family: $primary-font;
+  font-size: $default-font-size;
+  letter-spacing: 0;
+  line-height: 12px;
+  text-transform: none;
+  
+  &--extra-small {
+    font-size: 9px !important;
+  }
+
+  &--small {
+    font-size: 11px !important;
+  }
+
+  &--medium {
+    font-size: $font-size-md;
+  }
+
+  &--large {
+    font-size: 18px;
+  }
+
+  &--extra-large {
+    font-size: 20px;
+  }
+
+  &--dark {
+    color: #595B5F;
+  }
+
+  &--bold {
+    font-weight: bold;
+  }
+
+  &--yellow {
+    color: #F5A623;
+  }
+
+  &--red {
+    color: #ED2939;
+  }
+
+  &--blue {
+    color: #056694;
+  }
+
+  &--secondary-style {
+    font-family: $secondary-font;
+  }
+
+  &--white {
+    color: white;
+  }
+
+  &--black {
+    color: #4A4A4A !important;
+  }
+
+  &--grey {
+    color: #6D7278;
+  }
+}
+
+.title {
+  &--medium {
+    font-size: 20px;
+  }
+
+  &--large {
+    font-size: 24px;
+  }
+}
+
+.space-above {
+  margin-top: 15px;
+}
+
+.space-below {
+  margin-bottom: 15px;
+}
+
+.geocoder-control-list {
+  margin-left: 0px !important;
+  width: 100% !important;
+  background-color: white;
+}
+
+.geocoder-control-suggestions {
+  z-index: 2001 !important;
+  max-height: 300px !important;
+}
+
+.v-btn__content {
+  text-transform: none;
+}

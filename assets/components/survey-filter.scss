@@ -1,0 +1,49 @@
+.survey-filter {
+    &__container {
+        margin-top: 22px;
+    }
+
+    &__search-input-container {
+        width: 40%;
+        margin-top: 15px;
+    }
+
+    &__rectangle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        height: 32px;
+        width: 114.71px;
+        border: 1px solid #979797;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+    }
+
+    &__tag-container {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    }
+
+    .selected {
+        border-color: #056694 !important;
+        color: #056694 !important;
+    }
+
+    .title-container {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+        .v-input--selection-controls {
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+
+        .v-input__slot {
+            margin-bottom: 0px;
+        }
+    }
+}

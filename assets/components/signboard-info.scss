@@ -1,0 +1,104 @@
+.signboard-info {
+  &__title-container {
+    padding-bottom: 36px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    padding-left: 15px;
+    color: #4A4A4A;
+    font-family: "Avenir Next";
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 19px;
+  }
+
+  &__chip {
+    background: rgba(5, 102, 148, 0.175298) !important;
+    border-radius: 5px !important;
+  }
+
+  &__status-box {
+    border-radius: 5px;
+    margin-bottom: 8px;
+
+    .v-input--dense > .v-input__control > .v-input__slot {
+      margin-bottom: 0px !important;
+    }
+
+    &--blue {
+      border: 2px solid #056694;
+    }
+
+    &--defective {
+      border: 2px solid #F7B500;
+    }
+
+    &--normal {
+      border: 2px solid #979797;
+    }
+
+    &--flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__status-box-text {
+    padding-left: 15px;
+    
+    font-family: "Avenir Next";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 16px;
+
+    &--defective {
+      color: #F7B500;
+    }
+
+    &--blue {
+      color: #056694;
+    }
+
+    &--normal {
+      color: #979797;
+    }
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__label {
+    color: #4A4A4A;
+    font-family: "Avenir Next";
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 12px;
+  }
+
+  &__value {
+    color: #4A4A4A;
+    font-family: "Avenir Next";
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 12px;
+  }
+
+  &__edit-defect-btn {
+    color: #FFFFFF;
+    font-family: "Avenir Next";
+    font-size: 14px;
+    font-weight: 600 !important;
+    letter-spacing: 0 !important;
+    line-height: 19px;
+    text-transform: none !important;
+  }
+}

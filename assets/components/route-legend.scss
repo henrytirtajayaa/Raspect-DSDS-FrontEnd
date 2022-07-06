@@ -1,0 +1,28 @@
+.route-legend {
+    &--hover {
+        background: #89CFF0;
+    }
+
+    &__legend-container {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    &__path-icon {
+        box-sizing: border-box;
+        height: 1px;
+        width: 47.61px;
+        border: 5px solid #056694;
+        margin-right: 15px;
+
+        &--green {
+            border: 5px solid #329260;
+        }
+
+        &--red {
+            border: 5px solid #DA7070;
+        }
+    }
+}

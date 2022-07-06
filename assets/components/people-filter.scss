@@ -1,0 +1,61 @@
+.people-filter {
+    &__container {
+        margin-top: 22px;
+    }
+    
+    &__search-input-container {
+        width: 40%;
+    }
+
+    &__list-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 356px;
+        padding: 16px 0 48px 0;
+    }
+
+    &__tag-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+
+    &__list-item-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px;
+    }
+
+    &__field-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .v-input--selection-controls {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .title-container {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px
+    }
+
+    &__custom-text {
+        font-weight: 600;
+    }
+
+    &__list-item-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px;
+    }
+
+    .v-input__slot {
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,13 @@
+.board-details {
+    &__header-container {
+        display: flex;
+        align-items: center;
+        background-color: white;
+        padding-bottom: 20px;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+    }
+}

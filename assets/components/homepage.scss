@@ -1,0 +1,15 @@
+.homepage {
+    height: 95vh;
+    overflow: scroll;
+
+    .text {
+        &--bold {
+            font-weight: 600;
+            color: #4A4A4A;
+        }
+
+        &--blue {
+            color: #056694;
+        }
+    }
+}

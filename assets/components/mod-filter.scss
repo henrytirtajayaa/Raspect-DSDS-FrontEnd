@@ -1,0 +1,53 @@
+.mod-filter {
+    &__container {
+        margin-top: 22px;
+    }
+
+    &__search-input-container {
+        width: 40%;
+        margin-top: 15px;
+    }
+
+    &__tag-container {
+        margin-top: 10px;
+    }
+    
+    &__filter-container {
+        margin-top: 50px;
+        &:first-child {
+            margin-top: 25px;
+        }
+    }
+
+    &__chip {
+        margin-left: 10px;
+        &:first-child {
+            margin-left: 0px;
+        }
+    }
+
+    .title-container {
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        
+        .v-input--selection-controls {
+            margin-top: 0px;
+            padding-top: 0px;
+        }
+
+        .v-input__slot {
+            margin-bottom: 0px;
+        }
+    }
+
+    .selected {
+        border-color: #056694 !important;
+        color: #056694 !important;
+    }
+
+    &__custom-text {
+        font-weight: 600;
+    }
+}

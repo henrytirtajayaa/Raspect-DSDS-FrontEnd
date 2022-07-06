@@ -1,0 +1,53 @@
+.save-defect-form {
+
+    &__text-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    &__other-field-container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__defect-container {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__defect-description-title-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__save-btn-container {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 20px;
+    }
+
+    &__other-text {
+        padding-right: 20px;
+    }
+
+    &__add-new-defect-text {
+        color: #595B5F;
+        font-family: "Avenir Next";
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 19px;
+    }
+
+    &__defect-id-label {
+        color: #595B5F;
+        font-family: "Avenir Next";
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 19px;
+    }
+}

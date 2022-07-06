@@ -1,0 +1,74 @@
+.performance {
+    height: 100vh;
+    overflow: scroll;
+
+    .v-text-field.v-text-field--enclosed .v-text-field__details {
+        display: none;
+    }
+
+    &__card-title-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .blue-legend {
+        height: 12.589574813842773px;
+        width: 12.589574813842773px;
+        left: 0px;
+        top: 6.705078125px;
+        border-radius: 0px;
+        background: #056694;
+        margin-right: 6px;
+    }
+
+    .white-legend {
+        height: 12.589574813842773px;
+        width: 12.589574813842773px;
+        left: 0px;
+        top: 6.705078125px;
+        border-radius: 0px;
+        background: #D8D8D8;
+        margin-right: 6px;
+    }
+
+    .chart-container {
+        height: 189px;
+        width: 189px;
+    }
+
+    .graph-card-container {
+        border-radius: 0px !important;
+        border-bottom: 10px solid #056694!important;
+    }
+
+    &__custom-text {
+        color: #4A4A4A;
+        font-weight: 600;
+        font-size: 15px
+    }
+
+    &__chart-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__legend-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__custom-text {
+        margin-right: 17px;
+        color: #4A4A4A;
+    }
+
+    &__legend-group {
+        display: flex;
+        align-items: center;
+
+        &--space {
+            margin-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.annotation-controls {
+  &__controls-container {
+    width: 100%;
+    background-color: #dedede;
+  }
+
+  &__middle-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__control-button {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    min-width: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  &__controls-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__export-btn-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__export-btn {
+    text-transform: none !important;
+    font-family: "Avenir Next";
+    font-size: 14px;
+    font-weight: 600 !important;
+    letter-spacing: 0;
+    line-height: 19px;
+    border: 1px solid #9B9B9B !important;
+  }
+}
